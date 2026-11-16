@@ -1,0 +1,460 @@
+{
+ "validation": {
+  "registered": {
+   "dataset_sum": 15380536,
+   "official": 15380536,
+   "diff": 0
+  },
+  "reg_dem": {
+   "dataset_sum": 6718111,
+   "official": 6718111,
+   "diff": 0
+  },
+  "reg_rep": {
+   "dataset_sum": 5429356,
+   "official": 5429356,
+   "diff": 0
+  },
+  "ballots_total": {
+   "dataset_sum": 9413494,
+   "official": 9413494,
+   "diff": 0
+  },
+  "recall_yes": {
+   "dataset_sum": 4976274,
+   "official": 4976274,
+   "diff": 0
+  },
+  "recall_no": {
+   "dataset_sum": 4007783,
+   "official": 4007783,
+   "diff": 0
+  },
+  "arnold": {
+   "dataset_sum": 4206284,
+   "official": 4206284,
+   "diff": 0
+  },
+  "bustamante": {
+   "dataset_sum": 2724874,
+   "official": 2724874,
+   "diff": 0
+  },
+  "mcclintock": {
+   "dataset_sum": 1161287,
+   "official": 1161287,
+   "diff": 0
+  },
+  "camejo": {
+   "dataset_sum": 242247,
+   "official": 242247,
+   "diff": 0
+  }
+ },
+ "statewide": {
+  "ballots": 9413494,
+  "yes": 4976274,
+  "no": 4007783,
+  "yes_share": 0.5539005373630198,
+  "recall_votes": 8984057,
+  "gov_votes": 8657919,
+  "skipped_replacement_vs_recall": 326138,
+  "arnold_margin_over_bust": 1481410,
+  "yes_margin": 968491,
+  "counties_yes_majority": 43,
+  "counties_arnold_plurality": 50,
+  "counties_bust_plurality": 8,
+  "rep_candidates_votes": 5367571,
+  "dem_green_cands_votes": 2967121,
+  "gov_pct": {
+   "arnold": 0.48583083302119134,
+   "bustamante": 0.31472620614722774,
+   "mcclintock": 0.13413003748360317,
+   "camejo": 0.027979818245007837
+  },
+  "switch_for_tie_arnold_to_bust": 740705,
+  "switch_for_tie_recall": 484246,
+  "reg_share": {
+   "dem": 0.4367930350411715,
+   "rep": 0.3530017419418933,
+   "dts": 0.16035650513090052
+  }
+ },
+ "corr_unweighted": {
+  "rep_share": 0.9381561761133888,
+  "dem_share": -0.8151067168611718,
+  "dts_share": -0.6330386446922397,
+  "turnout_reg": -0.08010407685533555
+ },
+ "corr_weighted": {
+  "rep_share": 0.9579250735649958,
+  "dem_share": -0.8773231978502049,
+  "dts_share": -0.6430327221196813,
+  "turnout_reg": 0.07684779333870324
+ },
+ "corr_arnold_pct_vs": {
+  "rep_share": 0.9114833299994685,
+  "dem_share": -0.8442025947057953,
+  "dts_share": -0.5193808303177659
+ },
+ "corr_bust_pct_vs_dem": 0.8761532841531602,
+ "wls_yes": {
+  "names": [
+   "const",
+   "rep_share",
+   "dem_share"
+  ],
+  "coef": [
+   -0.11039209777325462,
+   1.5513283766639214,
+   0.2594136428402239
+  ],
+  "se": [
+   0.21553066165997592,
+   0.21558493633608913,
+   0.3406677343453742
+  ],
+  "r2_w": 0.9203113777317226,
+  "n": 58
+ },
+ "wls_arnold": {
+  "names": [
+   "const",
+   "rep_share",
+   "dem_share"
+  ],
+  "coef": [
+   0.15050323058095744,
+   0.9994397225918155,
+   -0.050898540145559966
+  ],
+  "se": [
+   0.28425692066120195,
+   0.291159926619381,
+   0.4397938479223167
+  ],
+  "r2_w": 0.840598820896327,
+  "n": 58
+ },
+ "wls_bust": {
+  "names": [
+   "const",
+   "rep_share",
+   "dem_share"
+  ],
+  "coef": [
+   0.7279942418843249,
+   -1.1058520302357246,
+   -0.03912971388119138
+  ],
+  "se": [
+   0.19229630838588788,
+   0.2211937376295834,
+   0.27725907095914726
+  ],
+  "r2_w": 0.9224609169248643,
+  "n": 58
+ },
+ "wls_mcc": {
+  "names": [
+   "const",
+   "rep_share",
+   "dem_share"
+  ],
+  "coef": [
+   -0.16543866953358724,
+   0.4640393699947415,
+   0.31021428583850835
+  ],
+  "se": [
+   0.08927649705404306,
+   0.09510302311904566,
+   0.13280088985923194
+  ],
+  "r2_w": 0.6242856450845491,
+  "n": 58
+ },
+ "wls_yes_turnout": {
+  "names": [
+   "const",
+   "rep_share",
+   "dem_share",
+   "turnout_reg"
+  ],
+  "coef": [
+   0.37222263047444,
+   1.3447053563717535,
+   -0.0978679305950827,
+   -0.41152935128958057
+  ],
+  "se": [
+   0.2277515785815907,
+   0.231371214543851,
+   0.2926487402075208,
+   0.11092667131177099
+  ],
+  "r2_w": 0.9440009757259914,
+  "n": 58
+ },
+ "regions": [
+  {
+   "region": "Los Angeles",
+   "counties": 1.0,
+   "ballots": 2203838.0,
+   "registered": 3996700.0,
+   "rep_reg": 0.2754167187930042,
+   "dem_reg": 0.514414892286136,
+   "yes_pct": 0.49001300930067915,
+   "arnold_pct": 0.449,
+   "bust_pct": 0.37558550299460486,
+   "mcc_pct": 0.11108361792415793,
+   "turnout": 0.5514144168939376
+  },
+  {
+   "region": "Bay Area",
+   "counties": 9.0,
+   "ballots": 2130845.0,
+   "registered": 3326185.0,
+   "rep_reg": 0.2482207093111177,
+   "dem_reg": 0.501796803244558,
+   "yes_pct": 0.36250510379442713,
+   "arnold_pct": 0.3311800204252025,
+   "bust_pct": 0.45901143242181364,
+   "mcc_pct": 0.11742929813927756,
+   "turnout": 0.6406273252991039
+  },
+  {
+   "region": "Southern California",
+   "counties": 4.0,
+   "ballots": 1947784.0,
+   "registered": 3057315.0,
+   "rep_reg": 0.4463812201228856,
+   "dem_reg": 0.33862915662926457,
+   "yes_pct": 0.6872874429744648,
+   "arnold_pct": 0.6004825403332421,
+   "bust_pct": 0.209134141781547,
+   "mcc_pct": 0.14291726332697727,
+   "turnout": 0.6370897339659145
+  },
+  {
+   "region": "Inland Empire",
+   "counties": 2.0,
+   "ballots": 799994.0,
+   "registered": 1305814.0,
+   "rep_reg": 0.46024854994662334,
+   "dem_reg": 0.3693397375123869,
+   "yes_pct": 0.7022519153487543,
+   "arnold_pct": 0.6056369930634167,
+   "bust_pct": 0.2158035695593839,
+   "mcc_pct": 0.14083143821883184,
+   "turnout": 0.6126400850350816
+  },
+  {
+   "region": "San Joaquin Valley",
+   "counties": 8.0,
+   "ballots": 776269.0,
+   "registered": 1381747.0,
+   "rep_reg": 0.4600458694681443,
+   "dem_reg": 0.4037482983498426,
+   "yes_pct": 0.6780855857343896,
+   "arnold_pct": 0.5323732761002535,
+   "bust_pct": 0.24640327886769506,
+   "mcc_pct": 0.18260828370334678,
+   "turnout": 0.5618025586449618
+  },
+  {
+   "region": "Sacramento Region",
+   "counties": 6.0,
+   "ballots": 693943.0,
+   "registered": 1021868.0,
+   "rep_reg": 0.4001377868765829,
+   "dem_reg": 0.39834009872116555,
+   "yes_pct": 0.6326784119876353,
+   "arnold_pct": 0.5505774444105463,
+   "bust_pct": 0.23864661630861972,
+   "mcc_pct": 0.14425034534921669,
+   "turnout": 0.6790926029585035
+  },
+  {
+   "region": "Central Coast",
+   "counties": 5.0,
+   "ballots": 430357.0,
+   "registered": 637226.0,
+   "rep_reg": 0.3495808394509954,
+   "dem_reg": 0.4270651228920352,
+   "yes_pct": 0.5132544982268031,
+   "arnold_pct": 0.43232725969403596,
+   "bust_pct": 0.33854964697209383,
+   "mcc_pct": 0.14040287953569378,
+   "turnout": 0.6753600763308465
+  },
+  {
+   "region": "North State",
+   "counties": 13.0,
+   "ballots": 300926.0,
+   "registered": 473437.0,
+   "rep_reg": 0.3977297929819596,
+   "dem_reg": 0.3738998008182715,
+   "yes_pct": 0.6232537178909419,
+   "arnold_pct": 0.5177381966818664,
+   "bust_pct": 0.2431622978076614,
+   "mcc_pct": 0.15749920734395467,
+   "turnout": 0.6356199452091831
+  },
+  {
+   "region": "Sierra & Foothills",
+   "counties": 10.0,
+   "ballots": 129538.0,
+   "registered": 180244.0,
+   "rep_reg": 0.4528638956081756,
+   "dem_reg": 0.340710370386809,
+   "yes_pct": 0.6502319672592486,
+   "arnold_pct": 0.5359728365667307,
+   "bust_pct": 0.21795723508158388,
+   "mcc_pct": 0.18175732395681776,
+   "turnout": 0.7186813430682852
+  }
+ ],
+ "outperf": {
+  "mean_unweighted": 0.10942088065777919,
+  "min": [
+   "Mariposa",
+   0.027159334126040435
+  ],
+  "max": [
+   "Yuba",
+   0.18151956181533646
+  ],
+  "repcands_minus_repreg_weighted": 0.26229300586653354,
+  "counties_repcands_exceed_repreg": 58
+ },
+ "history": {
+  "g2002": {
+   "reg": 15303469,
+   "dem": 6825400,
+   "rep": 5388895,
+   "voters": 7738821
+  },
+  "s2003": {
+   "reg": 15383526,
+   "dem": 6718111,
+   "rep": 5429256,
+   "voters": 9413494
+  },
+  "g2004": {
+   "reg": 16557273,
+   "voters": 12589683
+  },
+  "turnout_2002": 0.5056906378547243,
+  "turnout_2003": 0.6119204400863625,
+  "added_voters": 1674673
+ },
+ "top_yes": [
+  [
+   "Sutter",
+   0.773985001292992
+  ],
+  [
+   "Glenn",
+   0.7628342245989305
+  ],
+  [
+   "Kern",
+   0.7573107985905392
+  ],
+  [
+   "Lassen",
+   0.753870493841112
+  ],
+  [
+   "Yuba",
+   0.7523802952946047
+  ]
+ ],
+ "bottom_yes": [
+  [
+   "San Francisco",
+   0.196938929568959
+  ],
+  [
+   "Alameda",
+   0.30007649152554416
+  ],
+  [
+   "Marin",
+   0.3249703308114523
+  ],
+  [
+   "Santa Cruz",
+   0.3559395295058407
+  ],
+  [
+   "San Mateo",
+   0.3720479846181712
+  ]
+ ],
+ "largest5": [
+  [
+   "Los Angeles",
+   2203838,
+   0.49001300930067915,
+   44.9,
+   37.5
+  ],
+  [
+   "San Diego",
+   864071,
+   0.6583757542648556,
+   59.5,
+   23.7
+  ],
+  [
+   "Orange",
+   819852,
+   0.7330765845617577,
+   63.5,
+   16.9
+  ],
+  [
+   "Santa Clara",
+   460661,
+   0.4211766390782401,
+   39.2,
+   39.9
+  ],
+  [
+   "Alameda",
+   422269,
+   0.30007649152554416,
+   25.6,
+   53.5
+  ]
+ ],
+ "bust_win_counties": [
+  "Alameda",
+  "Marin",
+  "Mendocino",
+  "San Francisco",
+  "San Mateo",
+  "Santa Clara",
+  "Santa Cruz",
+  "Sonoma"
+ ],
+ "yes_minority_counties": [
+  "Alameda",
+  "Contra Costa",
+  "Humboldt",
+  "Los Angeles",
+  "Marin",
+  "Mendocino",
+  "Monterey",
+  "Napa",
+  "San Francisco",
+  "San Mateo",
+  "Santa Clara",
+  "Santa Cruz",
+  "Solano",
+  "Sonoma",
+  "Yolo"
+ ]
+}
